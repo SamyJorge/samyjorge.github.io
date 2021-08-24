@@ -2,8 +2,8 @@ MEU SITE PORTFÓLIO
 
 CONTEÚDO (Header)
 ------------------------------------------------------------------------
-Menu >>   Home  -  Sobre   -  Serviços  -  Portfólio  -  Contatos
-Lado Esquerdo >>   Logomarca + Meu nome + Breve descrição abaixo
+Menu >>   Home  -  Sobre   -  Serviços  -  Portfólio  -  Contatos<br>
+Lado Esquerdo >>   Logomarca + Meu nome + Breve descrição abaixo<br>
 Fundo >>  Imagem relacionada a tecnologia
 
 SOBRE
