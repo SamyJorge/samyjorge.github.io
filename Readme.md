@@ -1,4 +1,4 @@
-MEU SITE PORTFÓLIO
+<h2>MEU SITE PORTFÓLIO<h2>
 
 CONTEÚDO (Header)
 ------------------------------------------------------------------------
