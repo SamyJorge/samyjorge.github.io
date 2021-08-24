@@ -20,5 +20,5 @@ Logomarcas  -  Design gráfico  e   Publicitário
 CONTATOS (Footer)
 ------------------------------------------------------------------------
 Formulario de contato
-Telefone  -  Whats app   -   E-mail   -  Endereço  - Redes Sociais
+Telefone  -  Whatsapp   -   E-mail   -  Endereço  - Redes Sociais
 Localização
