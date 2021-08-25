@@ -1,9 +1,0 @@
-@charset "UTF-8";
-/*Regra @charset para prevenir problemas com pontuação*/
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-p{
-    width: 500px;
-}
