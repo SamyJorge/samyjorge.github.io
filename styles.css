@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* Regra @charset para prevenir problemas com pontuação */
+
+/* Estilo Geral */
+body {
+  margin: 0px;
+  background-image: url(./img/back-topo-definitivo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+}
+
+/* Tornando as fontes responsivas. "vw" corresponde ao percentual do tamanho do texto em relação ao tam. da janela de exibição. */
+div {
+  width: 70vw;
+  padding-top: 3vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2,5vw;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+header {
+  height: 10vw;
+  padding: 5vw;
+  background-color: rgba(132, 0, 255, 0.171);
+  text-align: center;
+}
+
+.big {
+  font-size: 3vw;
+}
+
+/* CSS Barra de navegação */
+.section-bar {
+  background-color: red;
+}
+
+.nav-top ul {
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+  width: 100%;
+}
+
+.nav-item li {
+  float: left;
+}
+
+.link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.link a:hover {
+  background-color:rgb(19, 2, 34)
+}
