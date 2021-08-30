@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Regra @charset para prevenir problemas com pontuação */
+/* @charset para prevenir problemas com pontuação */
 
 /* Estilo Geral */
 body {
@@ -12,14 +12,8 @@ body {
   color: antiquewhite;
 }
 
+
 /* Tornando as fontes responsivas. "vw" corresponde ao percentual do tamanho do texto em relação ao tam. da janela de exibição. */
-div {
-  width: 70vw;
-  padding-top: 3vw;
-  padding-left: 15vw;
-  padding-right: 15vw;
-  text-align: center;
-}
 
 h1 {
   font-size: 2,5vw;
@@ -29,29 +23,44 @@ h2 {
   font-size: 2vw;
 }
 
+p {
+  font-size: 17px;
+  text-align: justify;
+}
+
+/* Header */
 header {
-  height: 10vw;
-  padding: 5vw;
-  background-color: rgba(132, 0, 255, 0.171);
+  height: 7vw;
+  padding-top: 15%;
+  padding-bottom: 25%;
+  background-color: rgba(10, 2, 41, 0.562);
+  text-align: center;
+}
+.centro {
+  width: 70vw;
+  padding-top: 3vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
   text-align: center;
 }
 
 .big {
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
-/* CSS Barra de navegação */
+/* Barra Navegação */
 .section-bar {
-  background-color: red;
+  height: 2vw;
+  background-color: rgba(2, 0, 24, 0.767);
 }
 
 .nav-top ul {
   position: fixed;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1vw;
   overflow: hidden;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.767);
   width: 100%;
 }
 
@@ -63,10 +72,67 @@ header {
   display: block;
   color: white;
   text-align: center;
-  padding: 15px;
   text-decoration: none;
+  font-size: 20px;
+  padding: 15px;
 }
 
 .link a:hover {
-  background-color:rgb(19, 2, 34)
+  background-color:rgb(33, 0, 61)
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background-color: rgb(2, 0, 24);
+  color: antiquewhite;
+  overflow: hidden;
+}
+
+ul {
+  display: block;
+  width: 20%;
+  text-decoration: none;
+  text-align: left;
+  list-style-type: none;
+  padding: 10px;
+}
+
+#div-foot {
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 12%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  border: 0;
+  overflow: hidden;
+}
+
+.foot-link {
+  font-size: 25px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.li {
+  padding: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
 }
