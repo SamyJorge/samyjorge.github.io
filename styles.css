@@ -19,14 +19,6 @@ body {
 /* Tornando as fontes responsivas. "vw" corresponde ao percentual
 do tamanho do texto em relação ao tam. da janela de exibição. */
 
-h1 {
-  font-size: 2,5vw;
-}
-
-h2 {
-  font-size: 2vw;
-}
-
 p {
   font-size: 95%;
   text-align: justify;
