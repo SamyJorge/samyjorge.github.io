@@ -22,7 +22,7 @@ do tamanho do texto em relação ao tam. da janela de exibição. */
 p {
   font-size: 95%;
   text-align: justify;
-  width: 60%;
+  width: 80%;
 }
 
 /* Barra Navegação */
