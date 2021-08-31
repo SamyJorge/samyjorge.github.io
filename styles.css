@@ -65,15 +65,15 @@ p {
 header {
   height: 5vw;
   padding-top: 15%;
-  padding-bottom: 20%;
+  padding-bottom: 25%;
   background-color: rgba(10, 2, 41, 0.562);
   text-align: center;
 }
 .centro {
-  width: 70vw;
+  width: 80vw;
   padding-top: 3vw;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   text-align: center;
 }
 
@@ -123,14 +123,15 @@ ul {
   padding: 5px;
 }
 
-.clear {
-  clear: both;
-}
-
 .right {
   float: right;
 }
 
 .left {
   float: left;
+}
+
+.copy {
+  font-size: 15px;
+  color:antiquewhite;
 }
