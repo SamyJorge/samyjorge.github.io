@@ -30,14 +30,27 @@ p {
   background-color: rgba(2, 0, 24, 0.767);
 }
 
+.div-nav-left {
+  float: left;
+}
+
+.div-nav-right {
+  float: right;
+  padding-right: 3vw;
+}
+.div-nav-left li, .div-nav-right li {
+  display: inline-block;
+}
+
 .nav-top ul {
+  overflow: hidden;
   position: fixed;
   list-style-type: none;
   margin: 0;
   padding: 1vw;
-  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.767);
   width: 100%;
+  text-align: right;
 }
 
 .nav-item li {
