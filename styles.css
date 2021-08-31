@@ -22,6 +22,7 @@ do tamanho do texto em relação ao tam. da janela de exibição. */
 p {
   font-size: 95%;
   text-align: justify;
+  width: 60%;
 }
 
 /* Barra Navegação */
@@ -108,11 +109,11 @@ footer {
 
 ul {
   display: block;
-  width: 20%;
+  width: 15%;
   text-decoration: none;
   text-align: left;
   list-style-type: none;
-  padding: 10px;
+  padding: 2%;
 }
 
 #div-foot {
