@@ -8,7 +8,8 @@ na mesma ordem em que estão dispostas as sessões do site.
 
 /* Estilo Geral */
 body {
-  margin: 0px;
+  margin: 0;
+  border: 0;
   background-image: url(./img/back-topo-definitivo.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,7 +32,11 @@ p {
   width: 80%;
 }
 
-/* ----- Barra Navegação ----- */
+a {
+  text-decoration: none;
+}
+
+/* ----- Barra Navegação topo ----- */
 .section-bar {
   height: 2vw;
   background-color: rgba(2, 0, 24, 0.719);
@@ -68,7 +73,6 @@ p {
   display: block;
   color: white;
   text-align: center;
-  text-decoration: none;
   font-size: 15px;
   padding: 15px;
 }
@@ -92,10 +96,10 @@ header {
 
 /* ----- Sobre ----- */
 .centro {
-  width: 80vw;
+  width: 100%;
   padding-top: 3vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
   background-color: rgb(5, 0, 22);
 }
@@ -111,25 +115,40 @@ header {
   border: 0;
   margin: 0;
   padding: 0;
-  background-color: slategray;
   overflow: hidden;
 }
-#form, #local {
+
+.ul-cont{
+  display: block;
+  float: left;
+  height: auto;
+  list-style-type: none;
+  padding: 3%;
+}
+
+.li-cont{
+  text-align: left;
+  padding: 5px;
+}
+
+#div-left, #div-right {
   display: block;
   width: 100px;
-  height: 100px;
-  border: 0;
-  margin: 0;
+  height: auto;
+  margin: 2vw;
+  padding: 1vw; 
   text-align: center;
 }
 
-#form {
+#div-left {
+  border: 1px solid;
+  border-radius: 8px;
   width: 40%;
   float: left;
-  background: red;
+  background: rgba(0, 0, 0, 0.582);
 }
 
-#local {
+#div-right {
   width: 40%;
   float: left;
   background: green;
@@ -145,7 +164,7 @@ footer {
   overflow: hidden;
 }
 
-ul {
+.ul-foot {
   display: block;
   width: 15%;
   text-decoration: none;
