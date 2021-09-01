@@ -19,16 +19,22 @@ body {
 /* Tornando as fontes responsivas. "vw" corresponde ao percentual
 do tamanho do texto em relação ao tam. da janela de exibição. */
 
+div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-size: 95%;
-  text-align: justify;
+  text-align: left;
   width: 80%;
 }
 
-/* Barra Navegação */
+/* ----- Barra Navegação ----- */
 .section-bar {
   height: 2vw;
-  background-color: rgba(2, 0, 24, 0.767);
+  background-color: rgba(2, 0, 24, 0.719);
 }
 
 .div-nav-left {
@@ -75,7 +81,7 @@ p {
   height: 50px;
 }
 
-/* Header */
+/* ----- Header ----- */
 header {
   height: 5vw;
   padding-top: 15%;
@@ -83,21 +89,53 @@ header {
   background-color: rgba(10, 2, 41, 0.562);
   text-align: center;
 }
+
+/* ----- Sobre ----- */
 .centro {
   width: 80vw;
   padding-top: 3vw;
   padding-left: 10vw;
   padding-right: 10vw;
   text-align: center;
+  background-color: rgb(5, 0, 22);
 }
 
 .big {
   font-size: 5vw;
 }
 
+/* ----- Contatos ----- */
+.contact {
+  width: 100%;
+  height: auto;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: slategray;
+  overflow: hidden;
+}
+#form, #local {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 0;
+  margin: 0;
+  text-align: center;
+}
 
+#form {
+  width: 40%;
+  float: left;
+  background: red;
+}
 
-/* Footer */
+#local {
+  width: 40%;
+  float: left;
+  background: green;
+}
+
+/* ----- Footer ----- */
 footer {
   width: 100%;
   height: auto;
