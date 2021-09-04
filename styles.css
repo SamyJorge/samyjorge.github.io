@@ -34,6 +34,11 @@ p {
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: chartreuse;
 }
 
 /* ----- Barra Navegação topo ----- */
