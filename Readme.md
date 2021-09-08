@@ -24,8 +24,24 @@ Telefone  -  Whatsapp   -   E-mail   -  Endereço  - Redes Sociais
 Localização
 
 
+Sobre mim:
+Olá, me chamo Samy Jorge Ramos, sou designer publicitário profissional freelancer, atuando no mercado brasileiro a pelo menos 25 anos, desenvolvendo programação visual e publicidade para todos os tipos e tamanhos de negócios. Além disso, no passado, já desenvolvi alguns websites usando os software Dreanweaver, Flash e linguagem HTML e CSS.
 
-Sou estundante autodidata de desenvolvimento front-end e back-end. Estou empenhado em aprender sempre e cada vez mais, gastando horas e horas de estudo diariamente.
+Atualmente estou estudando as linguagens nessessárias para me tornar um desenvolvedor front-end e back-end. Unir o conhecimento de design adquirido ao longo dos anos com as tecnologias web atuais e poder oferecer ao mercado soluções para os mais variados problemas é o meu objetivo.
+
+
+Cursos concluidos:
+HTML5 - CSS3 - PHP - Wordpress - Laravel
+
+
+Estudando:
+Java Script
+
+
+Objetivo:
+
+
+Estou empenhado em aprender sempre e cada vez mais, gastando horas e horas de estudo diariamente.
 
 sob a supervisão do engenheiro de software full stack Iago Oliveira, fiz pela   internet atravez do Youtube, os cursos de HTML5, CSS3, PHP, Wordpress, Laravel, Github e estou começando a estudar Java Scrip.
 

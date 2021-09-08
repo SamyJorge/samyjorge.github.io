@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Laravel, Wordpress, Front-end, Beck-end">
     <meta name="description" content="Desenvolvedor front-end e beck-end.">
     <meta name="author" content="Samy Jorge Ramos da Silva">
     <link rel="shortcut icon" href="./img/logo-ico-white.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <title>Samy Jorge</title>
 </head>
-<!--Barra de Navegação-->
+<!-- Barra de Navegação -->
+
 <body id="top">
     <section class="section-bar">
         <nav class="nav-top">
             <ul class="nav-item">
                 <div class="div-nav-left">
-                    <li><img class="nav-logo" src="./img/logo-ico-white.png" alt="Logotipo"></li>
+                    <li><img class="nav-logo" src="./img/logo-ico-white.png" alt="Logo Samy"></li>
                 </div>
                 <div class="div-nav-right">
                     <li class="link"><a href="#top">Home</a></li>
@@ -29,44 +31,78 @@
             </ul>
         </nav>
     </section>
-<!--Cabeça do site-->
+    <!-- Cabeça do site -->
     <header>
-        <h1 class="big">Samy Jorge</h1>
-        <h3>Site em desenvolvimento!</h3>
+        <div>
+            <h1 class="big">Samy Jorge</h1>
+            <h2>Site em desenvolvimento!</h2>
+            <h3>Não estou usando templates, estou fazendo esse site totalmente a mão com HTML e CSS,<br> assim como estou criando e tratando tudo que é imagem no Photoshop.</h3>
+        </div>
     </header>
+    <!-- Sessão Sobre mim -->
     <div id="sobre" class="centro">
         <center>
             <h1>Sobre mim:</h1>
+            <p>
+                Olá, me chamo Samy Jorge Ramos, sou designer publicitário profissional freelancer, atuando no mercado
+                brasileiro a pelo menos 25 anos, desenvolvendo programação visual e publicidade para todos os tipos e
+                tamanhos de negócios. Além disso, no passado, já desenvolvi alguns websites usando os software
+                Dreanweaver, Flash e linguagem HTML e CSS.
+                <br>
+                <br>
+                Atualmente estou estudando as linguagens nessessárias para me tornar um desenvolvedor front-end e
+                back-end. Unir o conhecimento de design adquirido ao longo dos anos com as tecnologias web atuais e
+                poder oferecer ao mercado soluções para os mais variados problemas é o meu objetivo.
+            </p>
             <br>
+            <br>
+            <!-- Sessão Cursos -->
+            <div>
+                <h2>Cursos concluidos:</h2>
+                <table>
+                    <td class="td-cursos"><img class="img50" src="img/ico_HTML5.png" alt="HTML5"></td>
+                    <td class="td-cursos"><img class="img50" src="img/ico_CSS3.png" alt="CSS3"></td>
+                    <td class="td-cursos"><img class="img50" src="img/ico_PHP.png" alt="PHP"></td>
+                    <td class="td-cursos"><img class="img50" src="img/ico_Wordpress.png" alt="WordPress"></td>
+                    <td class="td-cursos"><img class="img50" src="img/ico_laravel.png" alt="Laravel"></p>
+                </table>
+            </div>
+            <br>
+
         </center>
     </div>
     <div style="height: 70px;" id="servicos" class="centro"> ----- Serviços ----- </div>
     <div style="height: 70px;" id="portfolio" class="centro">----- Portfólio ----- </div>
 
-
-<!--Sessão de contatos-->   
-    <div id="contatos" class="contact">         
+    <!-- Sessão de contatos -->
+    <div id="contatos" class="contact">
         <div>
             <div id="div-left">
-              <div>Meus contatos</div>
-                <ul class="ul-cont">
-                    <li class="li-cont"><img src="img/ico-zap.png" alt="whatsapp"></li>
-                    <li class="li-cont"><img src="img/ico-git.png" alt="Github"></li>
-                    <li class="li-cont"><img src="img/ico-mail.png" alt="e-mail"></li>
-                </ul>
-                <ul style="padding: 7px;" class="ul-cont">
-                    <li class="li-cont"><a href="https://api.whatsapp.com/send?phone=5521989400444" target="blank">21.98940-0444</a></li>
-                    <li class="li-cont"><a class="color" href="https://github.com/samyjorge" target="blank">github.com/samyjorge</a></li>
-                    <li class="li-cont"><a href="mailto: samyjorge@gmail.com" target="blank">samyjorge@gmail.com</a></li>                
-                </ul>                
+                <div>Meus contatos</div>
+                <hr>
+                <table class="table-cont">
+                    <td class="td-cont"><img src="img/ico-zap.png" alt="whatsapp"></td>
+                    <td class="td-cont"><a href="https://api.whatsapp.com/send?phone=5521989400444"
+                    target="blank">21.98940-0444</a></td>
+                </table>
+                <table class="table-cont">
+                    <td class="td-cont"><img src="img/ico-git.png" alt="Github"></td>
+                    <td class="td-cont"><a class="color" href="https://github.com/samyjorge"
+                    target="blank">github.com/samyjorge</a></td>
+                </table>
+                <table class="table-cont">
+                    <td class="td-cont"><img src="img/ico-mail.png" alt="e-mail"></td>
+                    <td class="td-cont"><a href="mailto: samyjorge@gmail.com"       target="blank">samyjorge@gmail.com</a>
+                    </td>
+                </table>
             </div>
-            
-            <div id="div-right"> Redes Sociais </div>
-        </div>
 
+            <div id="div-right"> Redes Sociais </div>
+
+        </div>
     </div>
-    
-<!--Rodape do site-->    
+
+    <!-- Rodape do site -->
     <footer id="rodape">
         <div id="div-foot" class="centro">
             <table>
