@@ -164,7 +164,7 @@ header {
 
 #div-right {
   width: 40%;
-  height: 173px;
+  height: auto;
   float: left;
   background: rgb(2, 0, 24);
 }
