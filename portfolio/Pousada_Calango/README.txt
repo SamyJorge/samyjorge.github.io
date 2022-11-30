@@ -1,0 +1,1 @@
+Site de uma pousada ficticia com layout responsivo utilizando as propriedades do Flexbox.
