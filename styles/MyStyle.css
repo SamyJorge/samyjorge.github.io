@@ -97,7 +97,7 @@ header li a:hover {
 
 /* hero div class="foto" */
 .foto {
-    background-image: url(/img/foto_3X4.jpg);
+    background-image: url(/img/Foto_3X4.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-clip: content-box;
