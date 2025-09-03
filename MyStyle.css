@@ -1,13 +1,6 @@
 /* Para prevenir problemas com pontuação */
 @charset "UTF-8";
 
-:root {
-    --branco: white;
-    --preto: rgb(0, 0, 0);
-    --cinza: rgb(231, 231, 231);
-    --azul: rgb(31, 53, 105);
-
-}
 
 /* RESET */
 * {
@@ -27,15 +20,25 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --branco: rgb(241, 241, 241);
+    --preto: rgb(0, 0, 0);
+    --cinza: rgb(231, 231, 231);
+    --azul: rgb(31, 53, 105);
+    --azulClaro: rgb(103, 137, 214);
+
+}
+
+
+
 /* HEADER / NAVBAR */
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content:space-around;
     position: absolute;
-    padding: 20px 70px 0px 70px;
-    background-color: var(--branco);
+    padding: 20px 70px 10px 70px;
     width: 100%;
 }
 
@@ -43,24 +46,47 @@ header img {
     width: 60px;
 }
 
-header nav {
-    font-size: 25px;
+.menu {
     display: flex;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.menu-link{
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.menu-link::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--azulClaro);
+    transition: width 0.5s ease;
+}
+
+.menu-link:hover::after {
+    width: 100%;
 }
 
 header li {
     margin: 0 15px;
+    color: var(--preto);   
 }
 
+
 header li a {
-    opacity: 0.4;
+    opacity: 0.3;
     color: var(--preto);
     cursor: pointer;
 }
 
 header li a:hover {
     opacity: 1;
-    color: var(--azul);
+    color: var(--preto);
     transition: .5s ease all;
 }
 
@@ -74,6 +100,7 @@ header li a:hover {
     }
 }
 
+
 /* HERO */
 .hero {
     display: flex;
@@ -86,12 +113,13 @@ header li a:hover {
 
 .hero h1 {
     font-size: 4rem;
+    color: var(--azul);
     margin-bottom: 18px;
     text-shadow: 5px 6px 7px rgba(36, 36, 36, 0.3);
 }
 
 .hero h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 25px;
 }
 
@@ -224,7 +252,7 @@ header li a:hover {
     }
 
     .colunas {
-width: 90%;
+        width: 90%;
     }
 
     .linha p {
@@ -323,7 +351,7 @@ width: 90%;
 /* FOOTER */
 
 footer * {
-    color: var(--branco)
+    color: var(--cinza)
 }
 
 .foot {
@@ -333,7 +361,7 @@ footer * {
     align-items: center;
     background-color: var(--preto);
     width: 100%;
-    min-height: 50vh;
+    min-height: 30vh;
     text-align: center;
 }
 
@@ -355,11 +383,11 @@ footer * {
 }
 
 .foot p {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 @media(max-width: 700px) {
     .foot p {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
