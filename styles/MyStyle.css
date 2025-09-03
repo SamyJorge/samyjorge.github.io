@@ -170,7 +170,7 @@ header li a:hover {
 
 .ola h2 {
     font-size: 38px;
-    color: var(--branco);
+    color: var(--azulClaro);
     margin: 55px 0 25px 0;
 }
 
@@ -209,7 +209,7 @@ header li a:hover {
     width: 80%;
     min-height: 500px;
     height: 900px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: -1px 1px 15px rgba(0, 0, 0,0.2);
 }
 
@@ -258,7 +258,7 @@ header li a:hover {
     }
 
     .habilidades {
-        height: 1500px;
+        height: 2080px;
     }
 
     .box {
@@ -330,7 +330,7 @@ header li a:hover {
 @media (max-width: 700px) {
     .portfolio {
         max-width: 100%;
-        min-height:  250vh;
+        min-height:  180vh;
         align-items: center;
         align-content: center;
     }
