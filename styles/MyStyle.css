@@ -21,14 +21,13 @@ html {
 }
 
 :root {
-    --branco: rgb(241, 241, 241);
+    --branco: rgb(251, 251, 251);
     --preto: rgb(0, 0, 0);
     --cinza: rgb(231, 231, 231);
     --azul: rgb(31, 53, 105);
     --azulClaro: rgb(103, 137, 214);
 
 }
-
 
 
 /* HEADER / NAVBAR */
@@ -77,7 +76,6 @@ header li {
     color: var(--preto);   
 }
 
-
 header li a {
     opacity: 0.3;
     color: var(--preto);
@@ -100,7 +98,6 @@ header li a:hover {
     }
 }
 
-
 /* HERO */
 .hero {
     display: flex;
@@ -112,7 +109,7 @@ header li a:hover {
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--azul);
     margin-bottom: 18px;
     text-shadow: 5px 6px 7px rgba(36, 36, 36, 0.3);
@@ -163,7 +160,7 @@ header li a:hover {
     align-items: center;
     background: linear-gradient(0.0deg, var(--azul) 5%, var(--preto) 50%);
     width: 100%;
-    min-height: 120vh;
+    min-height: 800px;
     text-align: center;
 }
 
@@ -178,9 +175,9 @@ header li a:hover {
 }
 
 .ola p {
-    font-size: 25px;
+    font-size: 22px;
     color: var(--branco);
-    max-width: 900px;
+    max-width: 700px;
 }
 
 @media(max-width: 700px) {
@@ -206,7 +203,7 @@ header li a:hover {
     background-color: var(--branco);
     position: relative;
     padding: 20px;
-    margin-top: -80px;
+    margin-top: -60px;
     margin-right: auto;
     margin-left: auto;
     width: 80%;
@@ -266,7 +263,7 @@ header li a:hover {
 
     .box {
         height: 2000px;
-        margin-top: -50px;
+        margin-top: -30px;
     }
 }
 
@@ -325,7 +322,7 @@ header li a:hover {
 }
 
 .img img {
-    border-radius: 13px;
+    border-radius: 7px;
     height: max-content;
     right: fit-content;
 }
