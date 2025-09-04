@@ -20,6 +20,12 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    height: 100vh;
+    height: 100svh;
+
+}
+
 :root {
     --branco: rgb(251, 251, 251);
     --preto: rgb(0, 0, 0);
@@ -55,7 +61,7 @@ header img {
     padding: 0.5rem 0;
     position: relative;
 }
-
+/*Efeito barrinha em baixo do link*/
 .menu-link::after{
     content:'';
     height: 3px;
@@ -66,7 +72,6 @@ header img {
     background-color: var(--azulClaro);
     transition: width 0.5s ease;
 }
-
 .menu-link:hover::after {
     width: 100%;
 }
@@ -195,7 +200,7 @@ header li a:hover {
 .habilidades {
     display: flex;
     background-color: none;
-    width: 100%;
+    width: auto;
     height: 700px;
 }
 
@@ -208,9 +213,10 @@ header li a:hover {
     margin-left: auto;
     width: 80%;
     min-height: 500px;
-    height: 900px;
+    height: 920px;
     border-radius: 10px;
     box-shadow: -1px 1px 15px rgba(0, 0, 0,0.2);
+    overflow-y:visible
 }
 
 .linha {
@@ -239,7 +245,7 @@ header li a:hover {
     width: 50%;
     height: 100%;
     margin: 5px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 25px;
 }
 
