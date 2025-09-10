@@ -103,6 +103,7 @@ header li a:hover {
     }
 }
 
+
 /* HERO */
 .hero {
     display: flex;
@@ -110,7 +111,7 @@ header li a:hover {
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-    min-height: 1000px;
+    min-height: 700px;
 }
 
 .hero h1 {
@@ -122,25 +123,14 @@ header li a:hover {
 
 .hero h2 {
     font-size: 1.6rem;
-    margin-bottom: 25px;
+    margin-bottom: 80px;
 }
 
-/* hero div class="foto" */
-.foto {
-    background-image: url(/img/foto3x4.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-clip: content-box;
-    background-position: center;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin: 35px 0 35px 0;
-}
+/* hero div media */
 
 @media(max-width: 700px) {
     .hero {
-        min-height: 1000px;
+        min-height: 650px;
     }
     .hero h1 {
         font-size: 50px;
@@ -158,6 +148,7 @@ header li a:hover {
 
 
 /******* OLÁ *******/
+
 .ola {
     display: flex;
     flex-direction: column;
@@ -165,8 +156,20 @@ header li a:hover {
     align-items: center;
     background: linear-gradient(0.0deg, var(--azul) 5%, var(--preto) 50%);
     width: 100%;
-    min-height: 800px;
+    min-height: 900px;
     text-align: center;
+}
+
+.ola .foto {
+    background-image: url(/img/foto3x4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 35px 0 35px 0;
 }
 
 .ola img {
@@ -176,16 +179,20 @@ header li a:hover {
 .ola h2 {
     font-size: 38px;
     color: var(--azulClaro);
-    margin: 55px 0 25px 0;
+    margin: 30px 0px 25px 0px;
 }
 
 .ola p {
     font-size: 22px;
     color: var(--branco);
-    max-width: 700px;
+    max-width: 800px;
 }
 
 @media(max-width: 700px) {
+    .ola {
+        height: 150svh;
+    }
+
     .ola h2 {
         font-size: 45px;
         max-width: 400px
@@ -199,12 +206,16 @@ header li a:hover {
 /***** HABILIDADES ******/
 .habilidades {
     display: flex;
-    background-color: none;
+    background-color: var(--branco);
     width: auto;
-    height: 700px;
+    height: 100vh;
+    background-color: aqua;
 }
 
 .box {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
     background-color: var(--branco);
     position: relative;
     padding: 20px;
@@ -213,49 +224,36 @@ header li a:hover {
     margin-left: auto;
     width: 80%;
     min-height: 500px;
-    height: 920px;
+    height: max-content;
     border-radius: 10px;
     box-shadow: -1px 1px 15px rgba(0, 0, 0,0.2);
-    overflow-y:visible
-}
-
-.linha {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
-.linha img {
-    width: 90px;
-    margin: 15px;
-} 
-
- .linha h2 {
-    font-size: 30px;
-
-}
-
-.linha p {
-    font-size: 25px;
-    max-width: 600px;
-    margin: auto;
+    overflow-y: visible;
 }
 
 .colunas {
     width: 50%;
-    height: 100%;
-    margin: 5px;
+    height: auto;
+    margin-bottom: 30px;
     font-size: 20px;
     padding: 25px;
 }
 
+.colunas img {
+    height: 20vh;
+    margin: 10px;
+}
+
 @media(max-width: 700px) {
-    .linha {
+    .box {
         flex-direction: column;
     }
 
     .colunas {
-        width: 90%;
+        width: 100%;
+    }
+
+    .colunas img {
+        height: 15svh;
     }
 
     .linha p {
@@ -264,11 +262,12 @@ header li a:hover {
     }
 
     .habilidades {
-        height: 2080px;
+        height: 210svh;
     }
 
     .box {
-        height: 2000px;
+        /*height: 2000px;*/
+        height: min-content;
         margin-top: -30px;
     }
 }
@@ -279,64 +278,54 @@ header li a:hover {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    justify-content: end;
+    justify-content: flex-end;
     background-color: var(--branco);
     width: 100%;
-    min-height: 160vh;
+    min-height: 120vh;
     text-align: center;
+    background-color: brown;
 }
 
 .portfolio h2 {
     max-width: 400px;
     font-size: 38px;
-    margin: 0 0 25px 0;
+    margin-bottom: 5px;
     color: var(--azul);
 }
 
 .portfolio p {
-    max-width: 400px;
-    font-size: 18px;
     max-width: 900px;
-    margin-bottom: 45px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .container {
     display: flex;
-    width: 90%;
-    padding-bottom: 70px;
-}
-
-.portfolio .grid {
-    width: 100%;
-    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: stretch;
     justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;  
+    width: 100%;
+    padding-bottom: 15svh;
+
 }
 
-.portfolio .grid li {
-    height: 350px;
-    padding: 10px;
-    border-radius: 20px;
-    background-clip: content-box;
-    background-size: cover;
-    background-position: center;
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: 2px;
 }
 
-.portfolio .grid li.img {
-    flex-basis: 30%;
-}
-
-.img img {
-    border-radius: 7px;
-    height: max-content;
-    right: fit-content;
+.card img {
+    width: 65svh;
 }
 
 @media (max-width: 700px) {
     .portfolio {
-        max-width: 100%;
-        min-height:  180vh;
+        min-height:  200vh;
         align-items: center;
         align-content: center;
     }
@@ -348,6 +337,10 @@ header li a:hover {
     }    
     .portfolio .grid li.img {
         flex-basis: 30%
+    }
+
+    .container {
+        flex-direction: column;
     }
 }
 
