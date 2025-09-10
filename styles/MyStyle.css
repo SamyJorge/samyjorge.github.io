@@ -209,7 +209,6 @@ header li a:hover {
     background-color: var(--branco);
     width: auto;
     height: 100vh;
-    background-color: aqua;
 }
 
 .box {
@@ -283,7 +282,6 @@ header li a:hover {
     width: 100%;
     min-height: 120vh;
     text-align: center;
-    background-color: brown;
 }
 
 .portfolio h2 {
