@@ -38,6 +38,7 @@ html, body {
 
 /* HEADER / NAVBAR */
 header {
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -210,7 +211,6 @@ header li a:hover {
 /***** HABILIDADES ******/
 .habilidades {
     display: flex;
-    background-color: var(--branco);
     width: auto;
     height: 100vh;
 }
@@ -269,7 +269,6 @@ header li a:hover {
     }
 
     .box {
-        /*height: 2000px;*/
         height: min-content;
         margin-top: -30px;
     }
@@ -291,8 +290,9 @@ header li a:hover {
 .portfolio h2 {
     max-width: 400px;
     font-size: 38px;
-    margin-bottom: 5px;
     color: var(--azul);
+    margin-top: 1vh;
+    margin-bottom: 5vh;
 }
 
 .portfolio h3 {
@@ -331,6 +331,10 @@ header li a:hover {
 
 .card img {
     width: 65vh;
+}
+
+.cardLogo img {
+    width: 45vh;
 }
 
 .card p {
