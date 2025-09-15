@@ -133,7 +133,7 @@ header li a:hover {
 
 @media(max-width: 700px) {
     .hero {
-        min-height: 105vh;
+        min-height: 90vh;
     }
     .hero h1 {
         font-size: 50px;
