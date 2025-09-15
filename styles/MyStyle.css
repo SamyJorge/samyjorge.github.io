@@ -112,12 +112,13 @@ header li a:hover {
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-    min-height: 700px;
+    min-height: 105vh;
 }
 
 .hero h1 {
     font-size: 5rem;
     color: var(--azul);
+    margin-top: 50px;
     margin-bottom: 18px;
     text-shadow: 5px 6px 7px rgba(36, 36, 36, 0.3);
 }
@@ -132,7 +133,7 @@ header li a:hover {
 
 @media(max-width: 700px) {
     .hero {
-        min-height: 650px;
+        min-height: 105vh;
     }
     .hero h1 {
         font-size: 50px;
