@@ -361,6 +361,9 @@ header li a:hover {
     .container {
         flex-direction: column;
     }
+    .card img {
+    width: 55svh;
+    }
 }
 
 /* FOOTER */
