@@ -118,7 +118,7 @@ header li a:hover {
 .hero h1 {
     font-size: 5rem;
     color: var(--azul);
-    margin-top: 50px;
+    margin-top: 30vh;
     margin-bottom: 18px;
     text-shadow: 5px 6px 7px rgba(36, 36, 36, 0.3);
 }
@@ -266,7 +266,7 @@ header li a:hover {
     }
 
     .habilidades {
-        height: 210svh;
+        height: 185svh;
     }
 
     .box {
@@ -350,7 +350,7 @@ header li a:hover {
         align-content: center;
     }
     .portfolio h2 {
-        font-size: 38px;
+        font-size: 32px;
     }
     .portfolio p {
         font-size: 18px;
@@ -362,7 +362,7 @@ header li a:hover {
         flex-direction: column;
     }
     .card img {
-    width: 55svh;
+    width: 52svh;
     }
 }
 
