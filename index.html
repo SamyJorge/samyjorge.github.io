@@ -161,6 +161,9 @@
         <h2>Logotipos</h2>
         <div class="container">
             <div class="cardLogo">
+                <img src="portfolio/Logos/Logo Fyllo.jpg" alt="Logo Logo Fillo">
+            </div>
+            <div class="cardLogo">
                 <img src="portfolio/Logos/KAZINO LOGO.jpg" alt="Logo Kazino">
             </div>
             <div class="cardLogo">
@@ -185,13 +188,30 @@
                 <img src="portfolio/Logos/Logo ZERAH.jpg" alt="Logo Zerah">
             </div>
             <div class="cardLogo">
+                <img src="portfolio/Logos/AKATO.jpg" alt="Logo Akato">
+            </div>
+            <div class="cardLogo">
                 <img src="portfolio/Logos/MEMEL LOGO.jpg" alt="Logo Memel">
             </div>
-        </div>  
-
+            <div class="cardLogo">
+                <img src="portfolio/Logos/MANSOES_IMOB.jpg" alt="Mansoes Imobiliaria">
+            </div>
+        </div>
     </section>
 
     <footer class="foot" id="contatos">
+        <h2>Gostaria muito de falar com você pessoalmente. Mande uma mensagem</h2>
+        <section class="foot-contatos">
+            <form class="form-contatos" id="formulario" onsubmit="enviarWhats(event)">
+                <div class="input-form">
+                    <input class="text-form" placeholder="Seu nome" id="nome">
+                </div>
+                <div class="input-form" >
+                    <textarea class="text-form" placeholder="Digite sua mensagem" rows="4" id="mensagem"></textarea>
+                </div>
+                <button type="submit" onclick="">Enviar mensagem</button>
+            </form>
+        </section>
         <ul>
             <li><a href="https://wa.me/5521989400444" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
             <li><a href="https://www.facebook.com/samyjorge" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -204,4 +224,24 @@
         <p>Copyright - Todos os direitos reservados - Samy Jorge 2024</p>
     </footer>
 
+    <script>
+        function enviarWhats(event) {
+            event.preventDefault()
+            
+            const nome = document.getElementById('nome').value;
+            const mensagem = document.getElementById('mensagem').value;
+            const telefone = '5521989400444';
+
+            const texto = `Olá! Me chamo ${nome}, Mensagem => ${mensagem}`;
+            const msgFormat = encodeURIComponent(texto);
+
+            const url = `https://whatsa.me/${telefone}/?t=${msgFormat}`;
+
+            window.open(url, '_blank');
+        }
+
+    </script>
+
+
+</body>
 </html>
