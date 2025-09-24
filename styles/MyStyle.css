@@ -46,12 +46,13 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
+    height: auto;
     background: linear-gradient(0.0deg, var(--preto) 5%, var(--azulPetroleo) 50%);
 }
 
 header img {
     width: 50px;
-    margin-top: 5px;
+    margin: 5px;
 }
 
 .menu {
@@ -99,6 +100,7 @@ header li a:hover {
 @media (max-width: 700px) {
     header {
         flex-direction: column;
+        height: 150px;
     }
 
     header nav {
